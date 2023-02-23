@@ -1,0 +1,147 @@
+/* Section colors */
+.D-color {
+    /* background-color: #198754; */
+    background-color: #0A64BC;
+    color: #fff;
+}
+.L-color {
+    background-color: #E7F0F8;
+    color: #000;
+}
+/* Headings */
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+/* Contact links */
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 1px;
+}
+a:hover {
+    color: #000;
+}
+/* container padding */
+.container-fluid {
+    padding: 3% 15%;
+}
+.skill-icon {
+    width: 1.125rem;
+    padding-bottom: 6px;
+}
+.heading-skill-icon {
+    width: 1.875rem;
+    padding-bottom: 6px;
+}
+.history-icon {
+    height: 1.5rem;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+/* Section Intro */
+.navname{
+   position: absulute;
+   left: 10%;
+}
+.navbar {
+    padding: 0 0 2.5rem;
+}
+.whpic {
+    width: 100%;
+}
+h1 {
+    font-family: 'Parisienne', cursive;;
+}
+.summary {
+    text-align: justify;
+    padding: 8% 0 0;
+}
+/* Section Work History */
+#history {
+    padding: 5% 0;
+}
+.col-lg-4 {
+    padding: 5px 10px;
+    line-height: 1.5;
+}
+/* Section Skills  */
+#skills h5 {
+    color: #000;
+    font-weight: bold;
+}
+.divcontact {
+    width: 20%;
+    margin: auto;
+}
+.contactpic {
+    width: 15px;
+}
+.companies {
+    top: 12%;
+    left: 60%;
+    text-align: left;
+    line-height: 2px;
+    border-radius: 2%;
+}
+#contact {
+    padding: 7% 15%;
+    text-align: center;
+}
+#contact a {
+    color: #000;
+}
+.c-icon {
+    padding: 2px;
+}
+p {
+    margin: 0;
+}
+.favicon {
+    width: 50px;
+    margin-top: 10px;
+}
+.top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+    /* font-size: 1.875rem; */
+}
+@media (max-width: 990px) {
+    body {
+        text-align: center;
+        font-size: 2rem;
+    }
+    #intro .whpic {
+        text-align: center;
+    }
+    #history .supervisor {
+        border-top: dotted;
+        border-bottom: dotted;
+        border-width: 5px;
+        border-color: #a9a9;
+    }
+    #skills .container-fluid{
+        text-align: left;
+    }
+    .history-icon {
+        margin-left: 0;
+    }
+    .name {
+        font-size: 4rem;
+    }
+    h2,h3,h5,h6 {
+        font-size: 2rem;
+    }
+    .top-btn {
+        font-size: 2rem;
+        bottom: 30px;
+        right: 40px;
+    }
+}
+
+
+
